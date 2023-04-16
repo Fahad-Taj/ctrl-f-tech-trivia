@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="header">
+        <img src="images/aces_logo_white.png" alt="ACES_LOGO_WHITE">
+    </div>
+
+   <div class="main-body">
+
+        <div class="title-main">
+            <div class="title-head">
+                <h1>TechTrivia</h1>
+            </div>
+        </div>
+    
+        
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <h1 style="margin: 0px; font-size: 30px; padding-top: 80px; padding-bottom: 80px; text-align: center; background-color: lightblue;">Congratulations on making it this far.....</h1>
+      <div class="text"></div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <h1 style="margin: 0px; font-size: 30px; padding-top: 80px; padding-bottom: 80px; text-align: center; background-color: lightblue;">This round consists of a series of questions.....</h1>
+      <div class="text"></div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <h1 style="margin: 0px; font-size: 30px; padding-top: 80px; padding-bottom: 80px; text-align: center; background-color: lightblue;">Answer all the questions to unlock the answer.....</h1>
+      <div class="text"></div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <hr>
+    <h1 style="text-align: center; font-size: 40px; font-family: Arial;">Questions</h1>
+    <hr>
+
+    <div class="card">
+        <p>Who invented the Linux operating system?</p>
+        <input type="text" id="answer1">
+        <button onclick="checkAnswer1()">Submit</button>
+        <div id="answ1"></div>
+    </div>
+
+    <div class="card">
+        <p>What was the first ever website?</p>
+        <input type="text" id="answer2">
+        <button onclick="checkAnswer2()">Submit</button>
+        <div id="answ2"></div>
+    </div>
+
+    <div class="card">
+        <p>The movie "The Imitation Game" is based on which computer scientist?</p>
+        <input type="text" id="answer3">
+        <button onclick="checkAnswer3()">Submit</button>
+        <div id="answ3"></div>
+    </div>
+
+    <div class="card">
+        <p>Who is the HOD of the computer department of BVUCOEP?</p>
+        <input type="text" id="answer4">
+        <button onclick="checkAnswer4()">Submit</button>
+        <div id="answ4"></div>
+    </div>
+
+    <div class="card">
+        <p>Who invented the first digital camera?</p>
+        <input type="text" id="answer5">
+        <button onclick="checkAnswer5()">Submit</button>
+        <div id="answ5"></div>
+    </div>
+
+    <div class="card">
+        <p>Who invented the first web browser?</p>
+        <input type="text" id="answer6">
+        <button onclick="checkAnswer6()">Submit</button>
+        <div id="answ6"></div>
+    </div>
+
+    <div class="card">
+        <p>What is the name of the first electronic digital computer?</p>
+        <input type="text" id="answer7">
+        <button onclick="checkAnswer7()">Submit</button>
+        <div id="answ7"></div>
+    </div>
+
+    <div class="card">
+        <p>Who developed the first compiler?</p>
+        <input type="text" id="answer8">
+        <button onclick="checkAnswer8()">Submit</button>
+        <div id="answ8"></div>
+    </div>
+
+
+   </div>
+
+    <script src="js/fahad.js"></script>
+</body>
+</html>
